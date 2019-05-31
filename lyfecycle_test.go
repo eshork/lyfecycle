@@ -12,7 +12,7 @@ import (
 )
 
 // From here, for a bit, we're defining an app as we normally would
-// BEGIH NORMAL'ISH APP BEHAVIOUR
+// BEGIN NORMAL'ISH APP BEHAVIOUR
 
 // Declare your lifecycle stages with unique integer values
 const (
@@ -34,7 +34,7 @@ var test_stageList lyfecycle.StageIDsList // in a normal app, you probably would
 // during the soonest possible execution moment, register the full list of lifecycle stages
 // module init() is about as early as you can get
 func init() {
-	// sequential stage list from the delcared stage IDs
+	// sequential stage list from the declared stage IDs
 	test_stageList = lyfecycle.StageIDsList{ // shoving this into a global variable so we can validate it later...
 		LyfeCycleStage1,
 		LyfeCycleStage2,
