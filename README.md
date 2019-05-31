@@ -1,5 +1,6 @@
 # Lyfecycle - Simple application lifecycle via callbacks for Go
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/eshork/lyfecycle)](https://goreportcard.com/report/github.com/eshork/lyfecycle)
 
 ## General Usage
 
